@@ -3,7 +3,9 @@
 A feladat egy olyan felhőalapú pénzügyi web-alkalmazás készítése a megrendelő számára, ami kiterjedten a céges számlákat kezelni képes. A szoftverrel képesek leszünk bejövő és kimenő számlákat rögzíteni, a számlákra fizetési tételeket írni, majd könyvelni azt és a fizetést elősegíteni. Mindezen pontokat jól szervezetten, minden lépésnél külön szerepköröket alkalmazva meghatározhatjuk, hogy melyik személy milyen lépésre jogosult (pl.: ki a könyvelő).  
 
 ## Ötletelés:
-> Varga Péter:
+```
+Varga Péter:
+```
 
 Tekintve az idő szűkösségét, tökeredjünk valami egyszerű projektre.
 Nekem a következők a javaslataim nagyvonalakba a funkciókra és a szerepkörökre nézve:
@@ -26,57 +28,59 @@ Nyilván itt lehetne még beleálmodni dolgokat, hogy csak addig módosíthassa 
 - Számlák kezelése, beküldése: Ez lenne mondjuk a könyvelői szerepkörhöz rendelve.
 Ő tudná felvenni a beérkező számlákat, és lekönyvelni azokat a meglévő kimennőekkel együtt. (jelentsen ez bármit is ?)
 - Adminisztrátori szerepkör: Ő lenne az aki el tudja végezni az esetleges módosításokat a számlákon, törölni tudja azokat (de persze csak logikailag, fizikálisan semmi nem tünne el a felhőből). Ő tudna létrehozni és törölni felhasználókat a fenti két szerepkörnek megfelelően.
-
-> Balog Olivér:
-
+```
+Balog Olivér:
+```
 Teams-es megbeszélésből kivágva:
 
-Olivér:
+> Olivér:
+> 
+> Ez kb. egymás után egy folyamat, amihez tartoznak szerepkörök, valahogy így,
+> legyen mondjuk csak a fizetendő számkákkal foglalkozva (tehát mi nem számlázunk):
+> Kapunk egy fizika számlát mondjuk egy bármilyen boltban a cégünk nevére. 
+> Ezt a számlát fogjuk és a szoftverünk segítségével a számla iktató egyszerűen beírja a számla adatait
+> (pl. ki számlázta, kinek a nevére, beolvassa a számlát pdf-ként, stb..).
+> 
+> A pénzügyi rögzítő az annyi lenne, hogy a pénzügyi adatokat, 
+> tehát a pénznemet (lehet esetleg külföldi számla),a számlán lévő tételeket
+> (ugye, egy számlán lehet több tétel, mint mondjuk, listázva a termékeket és az árukat, amit a boltban vettünk),
+> nagyjából így jó is neki.
+> 
+> Számla jóváhagyó ellenőrzi, átnézi az összes adatot, nagyobb cég esetén leosztja a cég részlegei között 
+> (mondjuk egy nagy cég, aminek van egy IT részlege és van egy Pénzügyi részlege).
+> 
+> A könyvelő egyértelmű, valahogyan úgy nézne ki, hogyha a számlát jóváhagyta, 
+> akkor a könyvelő a könyvelői felületen azt látja és lekönyveli 
+> (szerintem nem lesz szükségünk arra a feladathoz, hogy tudjuk, hogyan kell könyvelni).
+>
+>> Péter:
+>> 
+>> A számla iktató tehát az lenne aki kézhez kapja a fizikai számlát,
+>> (legyen ez papír vagy akár online számla) és ezen számla adatait veszi fel,
+>> illetve csatolja a számlát pdf-ként. Ez világos.
+>> 
+>> A pénzügyi rögzítő (ezt annyira nem értem): Ő kapja meg az iktató által készített számlát,
+>> és az ezen lévő tételeket viszi fel külön valahova?
+>> 
+>> Aztán a jóváhagyó megkapja az értesítést, hogy új tételeket rögzítettek az adott számlához, 
+>> és neki jóvá kell hagynia? Ezt a leosztást annyira nem értem? Miért kell leosztani ezeket?
+>>
+>>> Olivér:
+>>> 
+>>> Igen, jól érted. Ez egy folyamat, olyan sorrendben, ahogy leírtam. 
+>>> Először az iktató csinálja a dolgát, ameddig tudja a jogosultságával. 
+>>> Ugyanezt a "számlát" megtudja nyitni a pénzügyi rögzítő, csak ő neki már más dolgokhoz lesz joga nyúlni.
+>>> És így tovább a többinél is.
+>>> 
+>>> A jóváhagyó egyébként lehet akár annyi is, hogy csak jóváhagyja és engedélyezi a számlát. Legyen ez a mi adminunk.
+
+
 ```
-Ez kb. egymás után egy folyamat, amihez tartoznak szerepkörök, valahogy így,
-legyen mondjuk csak a fizetendő számkákkal foglalkozva (tehát mi nem számlázunk):
-Kapunk egy fizika számlát mondjuk egy bármilyen boltban a cégünk nevére. 
-Ezt a számlát fogjuk és a szoftverünk segítségével a számla iktató egyszerűen beírja a számla adatait
-(pl. ki számlázta, kinek a nevére, beolvassa a számlát pdf-ként, stb..).
-
-A pénzügyi rögzítő az annyi lenne, hogy a pénzügyi adatokat, 
-tehát a pénznemet (lehet esetleg külföldi számla),a számlán lévő tételeket
-(ugye, egy számlán lehet több tétel, mint mondjuk, listázva a termékeket és az árukat, amit a boltban vettünk),
-nagyjából így jó is neki.
-
-Számla jóváhagyó ellenőrzi, átnézi az összes adatot, nagyobb cég esetén leosztja a cég részlegei között 
-(mondjuk egy nagy cég, aminek van egy IT részlege és van egy Pénzügyi részlege).
-
-A könyvelő egyértelmű, valahogyan úgy nézne ki, hogyha a számlát jóváhagyta, 
-akkor a könyvelő a könyvelői felületen azt látja és lekönyveli 
-(szerintem nem lesz szükségünk arra a feladathoz, hogy tudjuk, hogyan kell könyvelni).
+Deszpod László:
 ```
-
-Péter:
 ```
-A számla iktató tehát az lenne aki kézhez kapja a fizikai számlát,
-(legyen ez papír vagy akár online számla) és ezen számla adatait veszi fel,
-illetve csatolja a számlát pdf-ként. Ez világos.
-
-A pénzügyi rögzítő (ezt annyira nem értem): Ő kapja meg az iktató által készített számlát,
-és az ezen lévő tételeket viszi fel külön valahova?
-
-Aztán a jóváhagyó megkapja az értesítést, hogy új tételeket rögzítettek az adott számlához, 
-és neki jóvá kell hagynia? Ezt a leosztást annyira nem értem? Miért kell leosztani ezeket?
+Molnár Gergő:
 ```
-
-Olivér:
-```
-Igen, jól érted. Ez egy folyamat, olyan sorrendben, ahogy leírtam. 
-Először az iktató csinálja a dolgát, ameddig tudja a jogosultságával. 
-Ugyanezt a "számlát" megtudja nyitni a pénzügyi rögzítő, csak ő neki már más dolgokhoz lesz joga nyúlni.
-És így tovább a többinél is.
-
-A jóváhagyó egyébként lehet akár annyi is, hogy csak jóváhagyja és engedélyezi a számlát. Legyen ez a mi adminunk.
-```
-> Deszpod László:
-
-> Molnár Gergő:
 
 ## Végleges feladat ismertetése nagyvonalakban:
 A Projekt arról szólna, hogy tervezzünk egy felhős pénzügyi számlakezelő alkalmazást.
