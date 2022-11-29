@@ -60,5 +60,5 @@ Szerintem mindenki válasszon ki magának olyan dolgokat amikre azt tudja mondan
 Amiben nem biztos, hogy vállalná / meg tudná csinálni oda tegyen kérdőjelet, és majd ha mindenki felcsipkedte a feladatokat, akkor megbeszéljük, hogy mi legyen azokkal.
 - Balog Olivér:
 - Deszpod László:6, 7, 8, 9
-- Molnár Gergő:
+- Molnár Gergő: 12
 - Varga Péter: 1, 2, 3(?), 4(?)
