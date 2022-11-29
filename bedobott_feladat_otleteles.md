@@ -87,7 +87,7 @@ Az alábbiakban a szerepköröknél leírom a teljes folyamatot nagyjából:
 
 Szerepkörök:
 - Számla iktató: Ő az aki kézhez kapja a számlát (mindegy milyen módon, ez itt nem lesz lényeges).
-Ezt a számlát fogja és rögzíti az alkalmazásban. Legyenek a rögzítendő adatok a következők: Ki állította ki a számlát?, Kinek a nevére?, esetleg valami belső megnevezésm, és belső számla sorszám, és PDF-ként rögzíti a számlát a fenti ürlap mellé.
+Ezt a számlát fogja és rögzíti az alkalmazásban. Legyenek a rögzítendő adatok a következők: Ki állította ki a számlát?, Kinek a nevére?, esetleg valami belső megnevezés, és belső számla sorszám, és PDF-ként rögzíti a számlát a fenti ürlap mellé.
 - Pénzügyi rögzítő: Ő figyeli a beérkezett számlákat. A számlán lévő tételeket külön rögzíti valahol (külön tábla) a számla sorszámához hozzárendelve.
 - Számla jóváhagyó vagy Admin: Ő ellenőrzi a fentieket és jóváhagyja a számlát, vagy törli, módosítja, és ő kezeli a felhasználókat is.
 - Könyvelő: A jóváhagyást követően ő fogja lekönyvelni a számlát.
