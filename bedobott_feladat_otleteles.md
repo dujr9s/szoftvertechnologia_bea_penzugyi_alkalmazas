@@ -29,10 +29,68 @@ Nyilván itt lehetne még beleálmodni dolgokat, hogy csak addig módosíthassa 
 
 > Balog Olivér:
 
+Teams-es megbeszélésből kivágva:
+
+Olivér:
+```
+Ez kb. egymás után egy folyamat, amihez tartoznak szerepkörök, valahogy így,
+legyen mondjuk csak a fizetendő számkákkal foglalkozva (tehát mi nem számlázunk):
+Kapunk egy fizika számlát mondjuk egy bármilyen boltban a cégünk nevére. 
+Ezt a számlát fogjuk és a szoftverünk segítségével a számla iktató egyszerűen beírja a számla adatait
+(pl. ki számlázta, kinek a nevére, beolvassa a számlát pdf-ként, stb..).
+
+A pénzügyi rögzítő az annyi lenne, hogy a pénzügyi adatokat, 
+tehát a pénznemet (lehet esetleg külföldi számla),a számlán lévő tételeket
+(ugye, egy számlán lehet több tétel, mint mondjuk, listázva a termékeket és az árukat, amit a boltban vettünk),
+nagyjából így jó is neki.
+
+Számla jóváhagyó ellenőrzi, átnézi az összes adatot, nagyobb cég esetén leosztja a cég részlegei között 
+(mondjuk egy nagy cég, aminek van egy IT részlege és van egy Pénzügyi részlege).
+
+A könyvelő egyértelmű, valahogyan úgy nézne ki, hogyha a számlát jóváhagyta, 
+akkor a könyvelő a könyvelői felületen azt látja és lekönyveli 
+(szerintem nem lesz szükségünk arra a feladathoz, hogy tudjuk, hogyan kell könyvelni).
+```
+
+Péter:
+```
+A számla iktató tehát az lenne aki kézhez kapja a fizikai számlát,
+(legyen ez papír vagy akár online számla) és ezen számla adatait veszi fel,
+illetve csatolja a számlát pdf-ként. Ez világos.
+
+A pénzügyi rögzítő (ezt annyira nem értem): Ő kapja meg az iktató által készített számlát,
+és az ezen lévő tételeket viszi fel külön valahova?
+
+Aztán a jóváhagyó megkapja az értesítést, hogy új tételeket rögzítettek az adott számlához, 
+és neki jóvá kell hagynia? Ezt a leosztást annyira nem értem? Miért kell leosztani ezeket?
+```
+
+Olivér:
+```
+Igen, jól érted. Ez egy folyamat, olyan sorrendben, ahogy leírtam. 
+Először az iktató csinálja a dolgát, ameddig tudja a jogosultságával. 
+Ugyanezt a "számlát" megtudja nyitni a pénzügyi rögzítő, csak ő neki már más dolgokhoz lesz joga nyúlni.
+És így tovább a többinél is.
+
+A jóváhagyó egyébként lehet akár annyi is, hogy csak jóváhagyja és engedélyezi a számlát. Legyen ez a mi adminunk.
+```
 > Deszpod László:
 
 > Molnár Gergő:
 
+## Végleges feladat ismertetése nagyvonalakban:
+A Projekt arról szólna, hogy tervezzünk egy felhős pénzügyi számlakezelő alkalmazást.
+Az alkalmazás csak a bejövő számlákat kezelné, tehát mi nem állítunk ki számlát, hanem csak felvesszük azokat amiket kaptunk.
+Pl.: A cég rendel valamit valahonnan, vesz valamit valami boltból, és erről számlát kap. Mi csak ezekkel foglalkozunk!
+
+Az alábbiakban a szerepköröknél leírom a teljes folyamatot nagyjából:
+
+Szerepkörök:
+- Számla iktató: Ő az aki kézhez kapja a számlát (mindegy milyen módon, ez itt nem lesz lényeges).
+Ezt a számlát fogja és rögzíti az alkalmazásban. Legyenek a rögzítendő adatok a következők: Ki állította ki a számlát?, Kinek a nevére?, esetleg valami belső megnevezésm, és belső számla sorszám, és PDF-ként rögzíti a számlát a fenti ürlap mellé.
+- Pénzügyi rögzítő: Ő figyeli a beérkezett számlákat. A számlán lévő tételeket külön rögzíti valahol (külön tábla) a számla sorszámához hozzárendelve.
+- Számla jóváhagyó vagy Admin: Ő ellenőrzi a fentieket és jóváhagyja a számlát, vagy törli, módosítja, és ő kezeli a felhasználókat is.
+- Könyvelő: A jóváhagyást követően ő fogja lekönyvelni a számlát.
 
 ## Feladatok:
 
