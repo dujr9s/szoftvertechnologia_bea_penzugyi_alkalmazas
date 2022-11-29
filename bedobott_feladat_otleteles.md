@@ -27,6 +27,9 @@ Nyilván itt lehetne még beleálmodni dolgokat, hogy csak addig módosíthassa 
 Ő tudná felvenni a beérkező számlákat, és lekönyvelni azokat a meglévő kimennőekkel együtt. (jelentsen ez bármit is ?)
 - Adminisztrátori szerepkör: Ő lenne az aki el tudja végezni az esetleges módosításokat a számlákon, törölni tudja azokat (de persze csak logikailag, fizikálisan semmi nem tünne el a felhőből). Ő tudna létrehozni és törölni felhasználókat a fenti két szerepkörnek megfelelően.
 
+> Balog Olivér:
+> Deszpod László:
+> Molnár Gergő:
 
 ## Feladatok:
 
