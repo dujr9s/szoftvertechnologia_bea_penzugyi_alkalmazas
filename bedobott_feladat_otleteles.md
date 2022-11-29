@@ -59,6 +59,6 @@ Ki és Mit szeretne csinálni?
 Szerintem mindenki válasszon ki magának olyan dolgokat amikre azt tudja mondani, hogy ennyi idő alatt meg tudja csinálni.
 Amiben nem biztos, hogy vállalná / meg tudná csinálni oda tegyen kérdőjelet, és majd ha mindenki felcsipkedte a feladatokat, akkor megbeszéljük, hogy mi legyen azokkal.
 - Balog Olivér:
-- Deszpod László:
+- Deszpod László:6, 7, 8, 9
 - Molnár Gergő:
 - Varga Péter: 1, 2, 3(?), 4(?)
