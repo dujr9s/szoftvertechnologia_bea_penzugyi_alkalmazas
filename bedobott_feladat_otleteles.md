@@ -83,18 +83,34 @@ Molnár Gergő:
 ```
 
 ## Végleges feladat ismertetése nagyvonalakban:
-A Projekt arról szólna, hogy tervezzünk egy felhős pénzügyi számlakezelő alkalmazást.
+~~A Projekt arról szólna, hogy tervezzünk egy felhős pénzügyi számlakezelő alkalmazást.
 Az alkalmazás csak a bejövő számlákat kezelné, tehát mi nem állítunk ki számlát, hanem csak felvesszük azokat amiket kaptunk.
-Pl.: A cég rendel valamit valahonnan, vesz valamit valami boltból, és erről számlát kap. Mi csak ezekkel foglalkozunk!
+Pl.: A cég rendel valamit valahonnan, vesz valamit valami boltból, és erről számlát kap. Mi csak ezekkel foglalkozunk!~~
+
+~~Az alábbiakban a szerepköröknél leírom a teljes folyamatot nagyjából:~~
+
+~~Szerepkörök:~~
+~~- Számla iktató: Ő az aki kézhez kapja a számlát (mindegy milyen módon, ez itt nem lesz lényeges).
+Ezt a számlát fogja és rögzíti az alkalmazásban. Legyenek a rögzítendő adatok a következők: Ki állította ki a számlát?, Kinek a nevére?, esetleg valami belső megnevezés, és belső számla sorszám, és PDF-ként rögzíti a számlát a fenti ürlap mellé.~~
+~~- Pénzügyi rögzítő: Ő figyeli a beérkezett számlákat. A számlán lévő tételeket külön rögzíti valahol (külön tábla) a számla sorszámához hozzárendelve.~~
+~~- Számla jóváhagyó vagy Admin: Ő ellenőrzi a fentieket és jóváhagyja a számlát, vagy törli, módosítja, és ő kezeli a felhasználókat is.~~
+~~- Könyvelő: A jóváhagyást követően ő fogja lekönyvelni a számlát.~~
+
+***VÁLTOZÁS:***
+
+Úgy alakult, hogy az 1. verziót csináljuk meg, amely röviden a következő lenne.
+Tervezzünk egy felhős pénzügyi számlázó alkalmazást, amely lehetőséget nyújt arra, hogy a cégnél dolgozó eladók online számlát állíthassanak ki az ügyfelek részére.
 
 Az alábbiakban a szerepköröknél leírom a teljes folyamatot nagyjából:
 
 Szerepkörök:
-- Számla iktató: Ő az aki kézhez kapja a számlát (mindegy milyen módon, ez itt nem lesz lényeges).
-Ezt a számlát fogja és rögzíti az alkalmazásban. Legyenek a rögzítendő adatok a következők: Ki állította ki a számlát?, Kinek a nevére?, esetleg valami belső megnevezés, és belső számla sorszám, és PDF-ként rögzíti a számlát a fenti ürlap mellé.
-- Pénzügyi rögzítő: Ő figyeli a beérkezett számlákat. A számlán lévő tételeket külön rögzíti valahol (külön tábla) a számla sorszámához hozzárendelve.
-- Számla jóváhagyó vagy Admin: Ő ellenőrzi a fentieket és jóváhagyja a számlát, vagy törli, módosítja, és ő kezeli a felhasználókat is.
-- Könyvelő: A jóváhagyást követően ő fogja lekönyvelni a számlát.
+- Az **ügyfél** bemegy az üzletbe (vagy webshop, de ez most mindegy), és vásárol.
+- A pénztárhoz érve az **eladó** számlát készít a számára, amelyen rögzíti a megvásárolni kívánt tételeket.
+- A **könyvelő** bizonyos időközönként ellenőrizné, lekönyvelné a rendszerben keletkezett új számlákat.
+- Az **admin** az igényeknek megfelelően néha ellenőrzi a rendszer működését.
+Neki van jogköre a fenti két felhasználó típus kezelésére is (törlés, módosítás, létrehozás).
+- Csak, hogy körbeérjünk, az **ügyfél** a kapott email-es értesítés hatására, a linkre kattintva meg tudja nyitni a számláját,
+és le tudja tölteni. Ehhez semmilyen bejelentkezésre nincs szüksége, **ellenben az összes többi felhasználó típussal akiknek igen**.
 
 ## Feladatok:
 
