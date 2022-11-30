@@ -1,4 +1,4 @@
-# A szoftver által támogatott tevékenységek bemutatása
+# A szoftver által támogatandó tevékenység/funkcionalitás szabad szöveges leírása.
 
 A megrendelőnk egy kisvállalkozás amelynek a foglalkoztatási köre a járműszervizelés.
 
