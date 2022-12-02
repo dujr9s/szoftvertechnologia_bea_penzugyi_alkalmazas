@@ -2,7 +2,7 @@
 
 - [X] 1. A szoftver által támogatandó tevékenység/funkcionalitás szabad szöveges leírása: 4P
 - [X] 2. Táblázatos rendszerezés (struktúrált szöveg): 4P
-- [ ] 3. Használati eset diagram: 4P
+- [X] 3. Használati eset diagram: 4P
 - [ ] 4. Aktorok részletes leírása: 3P
 - [ ] 5. Használati esetek részletes szöveges ismertetése: 4P
 - [ ] 6. Tevékenység diagramok az egyes használati esetekhez: 4P
