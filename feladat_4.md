@@ -42,6 +42,8 @@ Jelen rendszerben az adminisztrátornak nincs kifejezetten olyan szerepe, amely 
 
 Az adminisztrátor szerepkörébe azonban tartoznak olyan műveletek is, amelyekről már beszélni kell a belső funkcionalitást illetően, ilyen a felhasználói szerepkörök, felhasználók kezelése.
 
-A szervízben dolgozó egyének adatai alkalomadtán változhatnak, pl. lakcím, esetleg telefonszám, vagy megeshet, hogy az egyik alkalmazott elfelejti a bejelentkezéshez szükséges jelszavát.
+A szervízben dolgozó egyének adatai alkalomadtán változhatnak, pl. lakcím, esetleg telefonszám, vagy megeshet, hogy az egyik alkalmazott elfelejti a bejelentkezéshez szükséges jelszavát, ilyen esetekben szükség van a felhasználói adatok módosítására.
 
 Ezen kívül a későbbi bővülés esetén, szükséges lehet újabb felhasználók felvétele a rendszerben, eladói, vagy akár könyvelői szerepkörökben is. Előfordulhat az is, hogy néha-néha, egy-egy alkalmazott felmondd, vagy esetleg el kell tanácsolni a cégtől. Ilyenkor szükséges az adott felhasználó törlése a rendszerből. A későbbi visszakereshetőség érdekében, azonban csak logikai törlést tesz lehetővé a rendszer, tehát a törlést követően a felhasználók még megtalálhatóak lesznek a törölt felhasználók menüpont alatt.
+
+Természetesen az adminisztrátori felület is csak sikeres azonosítást követően érhető el!
