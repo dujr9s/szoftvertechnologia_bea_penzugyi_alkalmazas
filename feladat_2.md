@@ -10,14 +10,14 @@ A projekthez fűződően a következő aktorok jelennek meg (mellettük a tábl�
 | Ki?        | Milyen gyakran? | Mit?                                                     | Megjegyzés                            |
 | ---------- | --------------- | -------------------------------------------------------- | ------------------------------------- |
 | E, K, A    | 1               | Bejelentkezés.                                           | Felhasználónév, Jelszó                |
-| Ü, E, K, A | 0..n            | **Számlák megtekintése**                                 |                                       |
+| Ü, E, K    | 0..n            | **Számlák megtekintése**                                 |                                       |
 | Ü          | 0..n            | &ensp; Linkre kattintás.                                 | Email-be kapott link                  |
-| E, K, A	   | 1..n	           | &ensp; Számlák keresése.                                 | Meglévő számlák közt                  |
-| E, K, A	   | 1..n	           | &ensp; Számla megnyitása.                                |                                       |
-| Ü, E, K, A | 0..n	           | **Számlák letöltése**                                    | PDF letöltés                          |
+| E, K  	   | 1..n	           | &ensp; Számlák keresése.                                 | Meglévő számlák közt                  |
+| E, K  	   | 1..n	           | &ensp; Számla megnyitása.                                |                                       |
+| Ü, E, K    | 0..n	           | **Számlák letöltése**                                    | PDF letöltés                          |
 | Ü          | 0..n            | &ensp; Letöltés linkre kattintás.                        |                                       |
-| E, K, A    | 0..n            | &ensp; Számlák keresése.                                 |                                       |
-| E, K, A    | 0..n            | &ensp; Letöltés gombra kattintás.                        |                                       |
+| E, K       | 0..n            | &ensp; Számlák keresése.                                 |                                       |
+| E, K       | 0..n            | &ensp; Letöltés gombra kattintás.                        |                                       |
 | E          | 1..n            | **Új számla kiállítása**                                 |                                       |
 | E          | 1..n            | &ensp; Alap adatok felvitele.                            | Név, cím, email                       |
 | E          | 1..n            | &ensp; Javítási tételek rögzítése árral, garanciaidővel. |                                       |
