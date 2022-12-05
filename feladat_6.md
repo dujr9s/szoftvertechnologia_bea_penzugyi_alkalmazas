@@ -28,7 +28,7 @@ Felhasználó adatainak módosítása
 
 Felhasználó törlése
 
-![felh_adatainak_torlese](https://user-images.githubusercontent.com/102946769/205769314-87675da9-673b-40f6-863f-3f8977bcab6e.png)
+![felh_adatainak_torlese(1)](https://user-images.githubusercontent.com/102946769/205770988-b384fe3a-d580-4268-bd5a-2f7fc8dd7345.png)
 
 Számla kiküldése
 
