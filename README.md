@@ -10,7 +10,7 @@
 - [X] 8. Kontextus diagram: 3P
 - [X] 9. Szakarchitektúra diagram: 3P
 - [X] 10. Projektterv MS Projektben: 6P
-- [ ] 11. Projekt kockázatok elemzése (halszálka, kockázat értékelés + Pareto, kockázat tervezés (stratégia), SWOT): 5P
+- [x] 11. Projekt kockázatok elemzése (halszálka, kockázat értékelés + Pareto, kockázat tervezés (stratégia), SWOT): 5p
 - [x] 12. Az adatbázis egyed-kapcsolat (ER) modellje és az ennek alapján készült relációs vagy Entity Framework modell: 6P
 - [ ] 13. A beadott dokumentáció külalakja: 1P
 - [ ] 14. A teljes dokumentációs anyag egységességének, összhangjának, és az esetleg megoldott pluszfeladatoknak az értékelése: 2P
